@@ -1,0 +1,3 @@
+[console_scripts]
+wang2_node = village_wang.wang2:main
+

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/village_wang/village_wang.egg-info/PKG-INFO
+../../build/village_wang/village_wang.egg-info/SOURCES.txt
+../../build/village_wang/village_wang.egg-info/dependency_links.txt
+../../build/village_wang/village_wang.egg-info/entry_points.txt
+../../build/village_wang/village_wang.egg-info/requires.txt
+../../build/village_wang/village_wang.egg-info/top_level.txt
+../../build/village_wang/village_wang.egg-info/zip-safe
+resource/village_wang
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+village_wang/__init__.py
+village_wang/wang2.py
