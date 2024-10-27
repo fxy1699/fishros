@@ -3,7 +3,8 @@ import rclpy
 from rclpy.node import Node
 #1. 导入消息类型
 from std_msgs.msg import String, UInt32
-
+#从村庄接口服务类中导入借钱服务
+from village_interfaces.srv import BorrowMoney
 
 class WriterNode(Node):
     """
@@ -26,7 +27,9 @@ class WriterNode(Node):
         self.account = 80
         # 创建并初始化订阅者成员属性submoney
         self.submoney = self.create_subscription(UInt32,"sexy_girl_money",self.recv_money_callback,10)
-
+        # 新建借钱服务
+        self.borrow_server = self.create_service(BorrowMoney, "borrow_money", self.borrow_money_callback)
+    
     def timer_callback(self):
         """
         定时器回调函数
@@ -46,7 +49,26 @@ class WriterNode(Node):
         """
         self.account += money.data
         self.get_logger().info('李四：我已经收到了%d的稿费' % self.account)
-
+        
+    def borrow_money_callback(self,request, response):
+        """
+        借钱回调函数
+        参数：request 客户端请求
+            response 服务端响应
+        返回值：response
+        """
+        self.get_logger().info("收到来自: %s 的借钱请求，目前账户内还有%d元" % (request.name, self.account))
+        #根据李四借钱规则，借出去的钱不能多于自己所有钱的十分之一，不然就不借
+        if request.money <= int(self.account*0.1):
+            response.success = True
+            response.money = request.money
+            self.account = self.account - request.money
+            self.get_logger().info("借钱成功，借出%d 元 ,目前账户余额%d 元" % (response.money,self.account))
+        else:
+            response.success = False
+            response.money = 0
+            self.get_logger().info("对不起兄弟，手头紧,不能借给你")
+        return response
 
 def main(args=None):
     """

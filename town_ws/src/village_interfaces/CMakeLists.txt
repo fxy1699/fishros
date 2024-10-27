@@ -16,7 +16,10 @@ find_package(sensor_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 #添加消息文件和依赖
 rosidl_generate_interfaces(${PROJECT_NAME}
+  #---msg---
   "msg/Novel.msg"
+  #---srv---
+  "srv/BorrowMoney.srv"
    DEPENDENCIES sensor_msgs
  )
 

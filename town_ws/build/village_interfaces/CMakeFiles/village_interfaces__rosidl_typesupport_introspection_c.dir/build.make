@@ -78,6 +78,7 @@ rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__rosidl_t
 rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em
 rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h: rosidl_adapter/village_interfaces/msg/Novel.idl
+rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h: rosidl_adapter/village_interfaces/srv/BorrowMoney.idl
 rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -171,8 +172,14 @@ rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__rosidl_t
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/moon/project/fishros/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_typesupport_introspection_c__arguments.json
 
+rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_introspection_c.h
+
 rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c: rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c
+
+rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c: rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c
 
 CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c.o: CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c.o: rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c
@@ -188,14 +195,30 @@ CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typ
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c -o CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c.s
 
+CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.o: CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.o: rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c
+CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.o: CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moon/project/fishros/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.o -MF CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.o.d -o CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.o -c /home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c
+
+CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c > CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.i
+
+CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c -o CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.s
+
 # Object files for target village_interfaces__rosidl_typesupport_introspection_c
 village_interfaces__rosidl_typesupport_introspection_c_OBJECTS = \
-"CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c.o"
+"CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c.o" \
+"CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.o"
 
 # External object files for target village_interfaces__rosidl_typesupport_introspection_c
 village_interfaces__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
 
 libvillage_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c.o
+libvillage_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.o
 libvillage_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/build.make
 libvillage_interfaces__rosidl_typesupport_introspection_c.so: libvillage_interfaces__rosidl_generator_c.so
 libvillage_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
@@ -210,7 +233,7 @@ libvillage_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/li
 libvillage_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libvillage_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librcutils.so
 libvillage_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/moon/project/fishros/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libvillage_interfaces__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/moon/project/fishros/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libvillage_interfaces__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -223,6 +246,8 @@ CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/clean:
 
 CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h
 CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c
+CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_introspection_c.h
+CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c
 	cd /home/moon/project/fishros/town_ws/build/village_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/moon/project/fishros/town_ws/src/village_interfaces /home/moon/project/fishros/town_ws/src/village_interfaces /home/moon/project/fishros/town_ws/build/village_interfaces /home/moon/project/fishros/town_ws/build/village_interfaces /home/moon/project/fishros/town_ws/build/village_interfaces/CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/depend
 

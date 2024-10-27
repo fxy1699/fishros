@@ -360,7 +360,23 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interfaces/srv" TYPE FILE FILES "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_adapter/village_interfaces/srv/BorrowMoney.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interfaces/msg" TYPE FILE FILES "/home/moon/project/fishros/town_ws/src/village_interfaces/msg/Novel.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interfaces/srv" TYPE FILE FILES "/home/moon/project/fishros/town_ws/src/village_interfaces/srv/BorrowMoney.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interfaces/srv" TYPE FILE FILES "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_cmake/srv/BorrowMoney_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interfaces/srv" TYPE FILE FILES "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_cmake/srv/BorrowMoney_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

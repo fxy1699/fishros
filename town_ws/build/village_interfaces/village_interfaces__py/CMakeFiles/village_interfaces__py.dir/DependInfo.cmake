@@ -17,6 +17,9 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_py/village_interfaces/msg/__init__.py" "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_py/village_interfaces/msg/_novel.py" "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_py/village_interfaces/msg/_novel_s.c" "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_py/village_interfaces/srv/__init__.py" "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_py/village_interfaces/srv/_borrow_money.py" "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c" "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

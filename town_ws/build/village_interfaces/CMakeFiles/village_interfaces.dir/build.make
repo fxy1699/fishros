@@ -67,6 +67,9 @@ include CMakeFiles/village_interfaces.dir/compiler_depend.make
 include CMakeFiles/village_interfaces.dir/progress.make
 
 CMakeFiles/village_interfaces: /home/moon/project/fishros/town_ws/src/village_interfaces/msg/Novel.msg
+CMakeFiles/village_interfaces: /home/moon/project/fishros/town_ws/src/village_interfaces/srv/BorrowMoney.srv
+CMakeFiles/village_interfaces: rosidl_cmake/srv/BorrowMoney_Request.msg
+CMakeFiles/village_interfaces: rosidl_cmake/srv/BorrowMoney_Response.msg
 CMakeFiles/village_interfaces: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 CMakeFiles/village_interfaces: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 CMakeFiles/village_interfaces: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl

@@ -4,3 +4,5 @@ village_interfaces.egg-info/PKG-INFO
 village_interfaces.egg-info/SOURCES.txt
 village_interfaces.egg-info/dependency_links.txt
 village_interfaces.egg-info/top_level.txt
+village_interfaces/msg/__init__.py
+village_interfaces/msg/_novel.py

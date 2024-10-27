@@ -15,6 +15,10 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_cpp/village_interfaces/msg/detail/novel__builder.hpp" "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_cpp/village_interfaces/msg/novel.hpp"
   "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_cpp/village_interfaces/msg/detail/novel__struct.hpp" "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_cpp/village_interfaces/msg/novel.hpp"
   "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_cpp/village_interfaces/msg/detail/novel__traits.hpp" "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_cpp/village_interfaces/msg/novel.hpp"
+  "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_cpp/village_interfaces/srv/borrow_money.hpp" "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_cpp/village_interfaces/msg/novel.hpp"
+  "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_cpp/village_interfaces/srv/detail/borrow_money__builder.hpp" "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_cpp/village_interfaces/msg/novel.hpp"
+  "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_cpp/village_interfaces/srv/detail/borrow_money__struct.hpp" "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_cpp/village_interfaces/msg/novel.hpp"
+  "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_cpp/village_interfaces/srv/detail/borrow_money__traits.hpp" "/home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_cpp/village_interfaces/msg/novel.hpp"
   )
 
 

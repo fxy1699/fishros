@@ -209,4 +209,7 @@ CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c__pyext.dir/ros
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
- /home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.h
+ /home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.h \
+ /home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__type_support.h \
+ /home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__struct.h \
+ /home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.h

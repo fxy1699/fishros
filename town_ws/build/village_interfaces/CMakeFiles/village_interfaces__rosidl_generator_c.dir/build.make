@@ -83,6 +83,7 @@ rosidl_generator_c/village_interfaces/msg/novel.h: /opt/ros/humble/share/rosidl_
 rosidl_generator_c/village_interfaces/msg/novel.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__type_support.h.em
 rosidl_generator_c/village_interfaces/msg/novel.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/village_interfaces/msg/novel.h: rosidl_adapter/village_interfaces/msg/Novel.idl
+rosidl_generator_c/village_interfaces/msg/novel.h: rosidl_adapter/village_interfaces/srv/BorrowMoney.idl
 rosidl_generator_c/village_interfaces/msg/novel.h: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 rosidl_generator_c/village_interfaces/msg/novel.h: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_generator_c/village_interfaces/msg/novel.h: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -185,8 +186,23 @@ rosidl_generator_c/village_interfaces/msg/detail/novel__struct.h: rosidl_generat
 rosidl_generator_c/village_interfaces/msg/detail/novel__type_support.h: rosidl_generator_c/village_interfaces/msg/novel.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/village_interfaces/msg/detail/novel__type_support.h
 
+rosidl_generator_c/village_interfaces/srv/borrow_money.h: rosidl_generator_c/village_interfaces/msg/novel.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/village_interfaces/srv/borrow_money.h
+
+rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.h: rosidl_generator_c/village_interfaces/msg/novel.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.h
+
+rosidl_generator_c/village_interfaces/srv/detail/borrow_money__struct.h: rosidl_generator_c/village_interfaces/msg/novel.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/village_interfaces/srv/detail/borrow_money__struct.h
+
+rosidl_generator_c/village_interfaces/srv/detail/borrow_money__type_support.h: rosidl_generator_c/village_interfaces/msg/novel.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/village_interfaces/srv/detail/borrow_money__type_support.h
+
 rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c: rosidl_generator_c/village_interfaces/msg/novel.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c
+
+rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c: rosidl_generator_c/village_interfaces/msg/novel.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c
 
 CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c.o: CMakeFiles/village_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c.o: rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c
@@ -202,14 +218,30 @@ CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c -o CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c.s
 
+CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.o: CMakeFiles/village_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.o: rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c
+CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.o: CMakeFiles/village_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moon/project/fishros/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.o -MF CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.o.d -o CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.o -c /home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c
+
+CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c > CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.i
+
+CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/moon/project/fishros/town_ws/build/village_interfaces/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c -o CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.s
+
 # Object files for target village_interfaces__rosidl_generator_c
 village_interfaces__rosidl_generator_c_OBJECTS = \
-"CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c.o"
+"CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c.o" \
+"CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.o"
 
 # External object files for target village_interfaces__rosidl_generator_c
 village_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libvillage_interfaces__rosidl_generator_c.so: CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c.o
+libvillage_interfaces__rosidl_generator_c.so: CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.o
 libvillage_interfaces__rosidl_generator_c.so: CMakeFiles/village_interfaces__rosidl_generator_c.dir/build.make
 libvillage_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 libvillage_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
@@ -218,7 +250,7 @@ libvillage_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_int
 libvillage_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libvillage_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libvillage_interfaces__rosidl_generator_c.so: CMakeFiles/village_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/moon/project/fishros/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libvillage_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/moon/project/fishros/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libvillage_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/village_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -234,6 +266,11 @@ CMakeFiles/village_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c
 CMakeFiles/village_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/village_interfaces/msg/detail/novel__struct.h
 CMakeFiles/village_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/village_interfaces/msg/detail/novel__type_support.h
 CMakeFiles/village_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/village_interfaces/msg/novel.h
+CMakeFiles/village_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/village_interfaces/srv/borrow_money.h
+CMakeFiles/village_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c
+CMakeFiles/village_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.h
+CMakeFiles/village_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/village_interfaces/srv/detail/borrow_money__struct.h
+CMakeFiles/village_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/village_interfaces/srv/detail/borrow_money__type_support.h
 	cd /home/moon/project/fishros/town_ws/build/village_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/moon/project/fishros/town_ws/src/village_interfaces /home/moon/project/fishros/town_ws/src/village_interfaces /home/moon/project/fishros/town_ws/build/village_interfaces /home/moon/project/fishros/town_ws/build/village_interfaces /home/moon/project/fishros/town_ws/build/village_interfaces/CMakeFiles/village_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/village_interfaces__rosidl_generator_c.dir/depend
 
