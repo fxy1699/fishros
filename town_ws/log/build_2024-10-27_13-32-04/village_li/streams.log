@@ -1,0 +1,37 @@
+[0.315s] Invoking command in '/home/moon/project/fishros/town_ws/src/village_li': PYTHONPATH=/home/moon/project/fishros/town_ws/build/village_li/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moon/project/fishros/town_ws/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/village_li build --build-base /home/moon/project/fishros/town_ws/build/village_li/build install --record /home/moon/project/fishros/town_ws/build/village_li/install.log --single-version-externally-managed install_data
+[0.434s] running egg_info
+[0.435s] creating ../../build/village_li/village_li.egg-info
+[0.435s] writing ../../build/village_li/village_li.egg-info/PKG-INFO
+[0.435s] writing dependency_links to ../../build/village_li/village_li.egg-info/dependency_links.txt
+[0.435s] writing entry points to ../../build/village_li/village_li.egg-info/entry_points.txt
+[0.435s] writing requirements to ../../build/village_li/village_li.egg-info/requires.txt
+[0.435s] writing top-level names to ../../build/village_li/village_li.egg-info/top_level.txt
+[0.435s] writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.436s] reading manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.436s] writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.436s] running build
+[0.436s] running build_py
+[0.436s] creating /home/moon/project/fishros/town_ws/build/village_li/build
+[0.436s] creating /home/moon/project/fishros/town_ws/build/village_li/build/lib
+[0.436s] creating /home/moon/project/fishros/town_ws/build/village_li/build/lib/village_li
+[0.436s] copying village_li/li4.py -> /home/moon/project/fishros/town_ws/build/village_li/build/lib/village_li
+[0.436s] copying village_li/__init__.py -> /home/moon/project/fishros/town_ws/build/village_li/build/lib/village_li
+[0.436s] running install
+[0.437s] running install_lib
+[0.437s] creating /home/moon/project/fishros/town_ws/install/village_li/lib/python3.10/site-packages/village_li
+[0.437s] copying /home/moon/project/fishros/town_ws/build/village_li/build/lib/village_li/li4.py -> /home/moon/project/fishros/town_ws/install/village_li/lib/python3.10/site-packages/village_li
+[0.437s] copying /home/moon/project/fishros/town_ws/build/village_li/build/lib/village_li/__init__.py -> /home/moon/project/fishros/town_ws/install/village_li/lib/python3.10/site-packages/village_li
+[0.437s] byte-compiling /home/moon/project/fishros/town_ws/install/village_li/lib/python3.10/site-packages/village_li/li4.py to li4.cpython-310.pyc
+[0.438s] byte-compiling /home/moon/project/fishros/town_ws/install/village_li/lib/python3.10/site-packages/village_li/__init__.py to __init__.cpython-310.pyc
+[0.438s] running install_data
+[0.438s] creating /home/moon/project/fishros/town_ws/install/village_li/share/ament_index
+[0.438s] creating /home/moon/project/fishros/town_ws/install/village_li/share/ament_index/resource_index
+[0.438s] creating /home/moon/project/fishros/town_ws/install/village_li/share/ament_index/resource_index/packages
+[0.438s] copying resource/village_li -> /home/moon/project/fishros/town_ws/install/village_li/share/ament_index/resource_index/packages
+[0.438s] copying package.xml -> /home/moon/project/fishros/town_ws/install/village_li/share/village_li
+[0.438s] running install_egg_info
+[0.439s] Copying ../../build/village_li/village_li.egg-info to /home/moon/project/fishros/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info
+[0.439s] running install_scripts
+[0.449s] Installing li4_node script to /home/moon/project/fishros/town_ws/install/village_li/lib/village_li
+[0.449s] writing list of installed files to '/home/moon/project/fishros/town_ws/build/village_li/install.log'
+[0.462s] Invoked command in '/home/moon/project/fishros/town_ws/src/village_li' returned '0': PYTHONPATH=/home/moon/project/fishros/town_ws/build/village_li/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moon/project/fishros/town_ws/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/village_li build --build-base /home/moon/project/fishros/town_ws/build/village_li/build install --record /home/moon/project/fishros/town_ws/build/village_li/install.log --single-version-externally-managed install_data
