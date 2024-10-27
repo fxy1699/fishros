@@ -1,0 +1,228 @@
+[0.007s] Invoking command in '/home/moon/project/fishros/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=/home/moon/project/fishros/town_ws/install/village_wang:/home/moon/project/fishros/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake /home/moon/project/fishros/town_ws/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/moon/project/fishros/town_ws/install/village_interfaces
+[0.045s] -- The C compiler identification is GNU 11.4.0
+[0.080s] -- The CXX compiler identification is GNU 11.4.0
+[0.085s] -- Detecting C compiler ABI info
+[0.134s] -- Detecting C compiler ABI info - done
+[0.138s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.138s] -- Detecting C compile features
+[0.138s] -- Detecting C compile features - done
+[0.140s] -- Detecting CXX compiler ABI info
+[0.197s] -- Detecting CXX compiler ABI info - done
+[0.200s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.200s] -- Detecting CXX compile features
+[0.201s] -- Detecting CXX compile features - done
+[0.202s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.289s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.344s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.364s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.367s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.372s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.378s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.386s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.423s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.590s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.864s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.970s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.984s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.985s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.002s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.002s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.002s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.002s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.015s] -- Found PythonExtra: .so  
+[1.056s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.069s] -- Added test 'lint_cmake' to check CMake code style
+[1.069s] -- Added test 'xmllint' to check XML markup files
+[1.071s] -- Configuring done
+[1.092s] -- Generating done
+[1.094s] -- Build files have been written to: /home/moon/project/fishros/town_ws/build/village_interfaces
+[1.101s] Invoked command in '/home/moon/project/fishros/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/moon/project/fishros/town_ws/install/village_wang:/home/moon/project/fishros/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake /home/moon/project/fishros/town_ws/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/moon/project/fishros/town_ws/install/village_interfaces
+[1.101s] Invoking command in '/home/moon/project/fishros/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=/home/moon/project/fishros/town_ws/install/village_wang:/home/moon/project/fishros/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/moon/project/fishros/town_ws/build/village_interfaces -- -j16 -l16
+[1.130s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.136s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.142s] [  6%] Built target ament_cmake_python_copy_village_interfaces
+[1.267s] [  6%] Built target village_interfaces__cpp
+[1.272s] [  9%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c.o[0m
+[1.274s] running egg_info
+[1.274s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.274s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.274s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.274s] creating village_interfaces.egg-info
+[1.274s] writing village_interfaces.egg-info/PKG-INFO
+[1.274s] writing dependency_links to village_interfaces.egg-info/dependency_links.txt
+[1.274s] writing top-level names to village_interfaces.egg-info/top_level.txt
+[1.274s] writing manifest file 'village_interfaces.egg-info/SOURCES.txt'
+[1.275s] reading manifest file 'village_interfaces.egg-info/SOURCES.txt'
+[1.276s] writing manifest file 'village_interfaces.egg-info/SOURCES.txt'
+[1.296s] [ 19%] Built target ament_cmake_python_build_village_interfaces_egg
+[1.310s] [ 22%] [32m[1mLinking C shared library libvillage_interfaces__rosidl_generator_c.so[0m
+[1.338s] [ 22%] Built target village_interfaces__rosidl_generator_c
+[1.345s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.345s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.345s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.401s] [ 35%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/msg/novel__type_support.cpp.o[0m
+[1.414s] [ 41%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/novel__type_support.cpp.o[0m
+[1.414s] [ 41%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/novel__type_support.cpp.o[0m
+[1.472s] [ 45%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/msg/novel__type_support.cpp.o[0m
+[1.484s] [ 48%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/msg/detail/novel__type_support_c.cpp.o[0m
+[1.491s] [ 51%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c.o[0m
+[1.493s] [ 54%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_c.so[0m
+[1.517s] [ 58%] [32m[1mLinking C shared library libvillage_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.522s] [ 58%] Built target village_interfaces__rosidl_typesupport_c
+[1.542s] [ 58%] Built target village_interfaces__rosidl_typesupport_introspection_c
+[1.548s] [ 61%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_cpp.so[0m
+[1.579s] [ 61%] Built target village_interfaces__rosidl_typesupport_cpp
+[1.627s] [ 67%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.627s] [ 67%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.667s] [ 70%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.673s] [ 70%] Built target village_interfaces__rosidl_typesupport_introspection_cpp
+[1.678s] [ 70%] Built target village_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.713s] [ 70%] Built target village_interfaces__rosidl_typesupport_fastrtps_c
+[1.729s] [ 70%] Built target village_interfaces
+[1.744s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.899s] [ 74%] Built target village_interfaces__py
+[1.915s] [ 77%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_py.dir/rosidl_generator_py/village_interfaces/msg/_novel_s.c.o[0m
+[1.995s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/libvillage_interfaces__rosidl_generator_py.so[0m
+[2.026s] [ 80%] Built target village_interfaces__rosidl_generator_py
+[2.041s] [ 90%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.042s] [ 90%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.042s] [ 90%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.099s] [100%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.099s] [100%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.100s] [100%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.126s] [100%] Built target village_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.127s] [100%] Built target village_interfaces__rosidl_typesupport_c__pyext
+[2.127s] [100%] Built target village_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.135s] Invoked command in '/home/moon/project/fishros/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/moon/project/fishros/town_ws/install/village_wang:/home/moon/project/fishros/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/moon/project/fishros/town_ws/build/village_interfaces -- -j16 -l16
+[2.199s] Invoking command in '/home/moon/project/fishros/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=/home/moon/project/fishros/town_ws/install/village_wang:/home/moon/project/fishros/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --install /home/moon/project/fishros/town_ws/build/village_interfaces
+[2.204s] -- Install configuration: ""
+[2.205s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/ament_index/resource_index/rosidl_interfaces/village_interfaces
+[2.205s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces
+[2.205s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[2.205s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[2.205s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__type_support.h
+[2.205s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__functions.h
+[2.205s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__struct.h
+[2.205s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__functions.c
+[2.205s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/novel.h
+[2.205s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.205s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/environment/library_path.sh
+[2.205s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/environment/library_path.dsv
+[2.206s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so
+[2.206s] -- Set runtime path of "/home/moon/project/fishros/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so" to ""
+[2.206s] -- Up-to-date: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces
+[2.206s] -- Up-to-date: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[2.206s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.206s] -- Up-to-date: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[2.206s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_c.h
+[2.206s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.206s] -- Set runtime path of "/home/moon/project/fishros/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.206s] -- Up-to-date: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces
+[2.206s] -- Up-to-date: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[2.206s] -- Up-to-date: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[2.206s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__struct.hpp
+[2.206s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__builder.hpp
+[2.207s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__traits.hpp
+[2.207s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/novel.hpp
+[2.207s] -- Up-to-date: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces
+[2.207s] -- Up-to-date: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[2.207s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.207s] -- Up-to-date: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[2.207s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_cpp.hpp
+[2.207s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/dds_fastrtps
+[2.207s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.207s] -- Set runtime path of "/home/moon/project/fishros/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.207s] -- Up-to-date: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces
+[2.207s] -- Up-to-date: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[2.207s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.207s] -- Up-to-date: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[2.207s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h
+[2.208s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__type_support.c
+[2.208s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so
+[2.208s] -- Set runtime path of "/home/moon/project/fishros/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.208s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so
+[2.208s] -- Set runtime path of "/home/moon/project/fishros/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so" to ""
+[2.208s] -- Up-to-date: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces
+[2.208s] -- Up-to-date: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[2.208s] -- Up-to-date: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[2.208s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__type_support.cpp
+[2.208s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_cpp.hpp
+[2.208s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.209s] -- Set runtime path of "/home/moon/project/fishros/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.209s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so
+[2.209s] -- Set runtime path of "/home/moon/project/fishros/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.209s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/environment/pythonpath.sh
+[2.209s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/environment/pythonpath.dsv
+[2.209s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info
+[2.209s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.209s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.209s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.209s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.209s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces
+[2.210s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.210s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.210s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg
+[2.210s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/_novel_s.c
+[2.210s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/__init__.py
+[2.210s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/_novel.py
+[2.210s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c
+[2.210s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.210s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.210s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/__init__.py
+[2.210s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/libvillage_interfaces__rosidl_generator_py.so
+[2.210s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.230s] Listing '/home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces'...
+[2.230s] Compiling '/home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/__init__.py'...
+[2.230s] Listing '/home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg'...
+[2.230s] Compiling '/home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/__init__.py'...
+[2.230s] Compiling '/home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/_novel.py'...
+[2.233s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.233s] -- Set runtime path of "/home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.233s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.234s] -- Set runtime path of "/home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.234s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.234s] -- Set runtime path of "/home/moon/project/fishros/town_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.234s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_py.so
+[2.234s] -- Set runtime path of "/home/moon/project/fishros/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_py.so" to ""
+[2.234s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/msg/Novel.idl
+[2.234s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/msg/Novel.msg
+[2.234s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/ament_index/resource_index/package_run_dependencies/village_interfaces
+[2.235s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/ament_index/resource_index/parent_prefix_path/village_interfaces
+[2.235s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.sh
+[2.235s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.dsv
+[2.235s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/environment/path.sh
+[2.235s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/environment/path.dsv
+[2.235s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/local_setup.bash
+[2.235s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/local_setup.sh
+[2.235s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/local_setup.zsh
+[2.235s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/local_setup.dsv
+[2.235s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/package.dsv
+[2.236s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/ament_index/resource_index/packages/village_interfaces
+[2.236s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_cExport.cmake
+[2.236s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.236s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.236s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.236s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_cppExport.cmake
+[2.236s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.236s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.236s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.236s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.236s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport.cmake
+[2.237s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.237s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.237s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.237s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport.cmake
+[2.237s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.237s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_pyExport.cmake
+[2.237s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.237s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.237s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.237s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.237s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.238s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.238s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.238s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.238s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig.cmake
+[2.238s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig-version.cmake
+[2.238s] -- Installing: /home/moon/project/fishros/town_ws/install/village_interfaces/share/village_interfaces/package.xml
+[2.240s] Invoked command in '/home/moon/project/fishros/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/moon/project/fishros/town_ws/install/village_wang:/home/moon/project/fishros/town_ws/install/village_li:/opt/ros/humble /usr/bin/cmake --install /home/moon/project/fishros/town_ws/build/village_interfaces
