@@ -29,6 +29,8 @@ class WriterNode(Node):
         self.submoney = self.create_subscription(UInt32,"sexy_girl_money",self.recv_money_callback,10)
         # 新建借钱服务
         self.borrow_server = self.create_service(BorrowMoney, "borrow_money", self.borrow_money_callback)
+        # 声明参数,参数名字，默认值
+        self.declare_parameter("write_timer_period",5)
     
     def timer_callback(self):
         """
@@ -42,6 +44,10 @@ class WriterNode(Node):
         self.get_logger().info('李四：我发布了艳娘传奇: "%s"'%msg.data)
         # 章节编号+1
         self.i +=1
+        # 回调之后更新回调周期
+        timer_period = self.get_parameter('write_timer_period').get_parameter_value().integer_value
+        # 更新回调周期
+        self.timer.timer_period_ns = timer_period * (1000*1000*1000)
 
     def recv_money_callback(self,money):
         """
@@ -49,7 +55,7 @@ class WriterNode(Node):
         """
         self.account += money.data
         self.get_logger().info('李四：我已经收到了%d的稿费' % self.account)
-        
+
     def borrow_money_callback(self,request, response):
         """
         借钱回调函数

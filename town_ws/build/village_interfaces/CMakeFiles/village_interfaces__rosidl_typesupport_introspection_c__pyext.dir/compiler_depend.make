@@ -250,8 +250,13 @@ CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c__pyext.dir/ros
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
-  rosidl_generator_c/village_interfaces/msg/detail/novel__functions.h
+  rosidl_generator_c/village_interfaces/msg/detail/novel__functions.h \
+  rosidl_generator_c/village_interfaces/srv/detail/borrow_money__type_support.h \
+  rosidl_generator_c/village_interfaces/srv/detail/borrow_money__struct.h \
+  rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.h
 
+
+rosidl_generator_c/village_interfaces/srv/detail/borrow_money__type_support.h:
 
 rosidl_generator_c/village_interfaces/msg/detail/novel__functions.h:
 
@@ -557,6 +562,8 @@ rosidl_generator_c/village_interfaces/msg/detail/novel__struct.h:
 
 /usr/include/inttypes.h:
 
+rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.h:
+
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c:
@@ -652,6 +659,8 @@ rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesuppo
 /usr/include/python3.10/pyport.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+rosidl_generator_c/village_interfaces/srv/detail/borrow_money__struct.h:
 
 /usr/include/python3.10/codecs.h:
 
