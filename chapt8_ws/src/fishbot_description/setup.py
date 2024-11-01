@@ -14,8 +14,9 @@ setup(
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py')),
         (os.path.join('share', package_name, 'urdf'), glob('urdf/**')),
+        
     ],
-    install_requires=['setuptools'],
+    install_requires=['setuptools','dynamic_reconfigure'],
     zip_safe=True,
     maintainer='moon',
     maintainer_email='1003844689@qq.com',
@@ -24,8 +25,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "rotate_wheel= fishbot_description.rotate_wheel:main",
-            
+            "rotate_wheel = fishbot_description.rotate_wheel:main",         
         ],
     },
 )

@@ -6,3 +6,4 @@ Maintainer: moon
 Maintainer-email: 1003844689@qq.com
 License: TODO: License declaration
 Requires-Dist: setuptools
+Requires-Dist: dynamic_reconfigure

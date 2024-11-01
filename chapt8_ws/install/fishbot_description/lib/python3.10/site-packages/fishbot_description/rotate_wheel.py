@@ -3,6 +3,7 @@ import rclpy
 from rclpy.node import Node
 # 1.导入消息类型JointState
 from sensor_msgs.msg import JointState
+# from rcl_interfaces.msg import SetParametersResult
 
 import threading
 import time
@@ -18,7 +19,37 @@ class RotateWheelNode(Node):
         self.pub_rate = self.create_rate(30)
         self.thread_ = threading.Thread(target=self._thread_pub)
         self.thread_.start()
+        # 初始化参数设置回调函数
+        # self.add_on_set_parameters_callback(self.parameter_callback)
+    
+    # def declare_param_with_range(self,name,value,start,end):
+    #     pd = ParameterDescriptor()
+    #     pd_range = IntegerRange()
+    #     pd_range.from_value = start
+    #     pd_range.to_value = end
+    #     pd_range.step = 1
+    #     pd.integer_range.append(pd_range)
+    #     self.declare_parameter(name,value,pd) 
+    
+    # def parameter_callback(self, parameters):
+    #     results = []
+    #     for parameter in parameters:
+    #         try:
+    #             # 获取参数的新值并做处理
+    #             new_value = parameter.value
+    #             self.get_logger().info(f'参数 {parameter.name} 设置为: {new_value}')
+    #             # self.sync_param(parameter.name, new_value)
+    #             # 构造参数设置结果
+    #             result = SetParametersResult(successful=True)
+    #         except Exception as e:
+    #             self.get_logger().error(f'设置参数 {parameter.name} 失败: {e}')
+    #             result = SetParametersResult(successful=False, reason=str(e))
+    #         results.append(result)
+    #     return SetParametersResult(successful=True, results=results)
 
+    # def sync_param(self, param_name, param_value):
+    #     # 这里实现将参数同步到硬件的逻辑，例如发送命令到摄像头以设置相应的参数
+    #     pass
     
     def _init_joint_states(self):
         # 初始左右轮子的速度

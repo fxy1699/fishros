@@ -1,0 +1,28 @@
+[0.398s] Invoking command in '/home/moon/project/fishros/chapt8_ws/src/fishbot_description': PYTHONPATH=/home/moon/project/fishros/chapt8_ws/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moon/project/fishros/chapt8_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fishbot_description build --build-base /home/moon/project/fishros/chapt8_ws/build/fishbot_description/build install --record /home/moon/project/fishros/chapt8_ws/build/fishbot_description/install.log --single-version-externally-managed install_data
+[0.517s] running egg_info
+[0.524s] writing ../../build/fishbot_description/fishbot_description.egg-info/PKG-INFO
+[0.524s] writing dependency_links to ../../build/fishbot_description/fishbot_description.egg-info/dependency_links.txt
+[0.525s] writing entry points to ../../build/fishbot_description/fishbot_description.egg-info/entry_points.txt
+[0.525s] writing requirements to ../../build/fishbot_description/fishbot_description.egg-info/requires.txt
+[0.525s] writing top-level names to ../../build/fishbot_description/fishbot_description.egg-info/top_level.txt
+[0.540s] reading manifest file '../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[0.540s] writing manifest file '../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[0.541s] running build
+[0.541s] running build_py
+[0.541s] copying fishbot_description/__init__.py -> /home/moon/project/fishros/chapt8_ws/build/fishbot_description/build/lib/fishbot_description
+[0.541s] copying fishbot_description/rotate_wheel.py -> /home/moon/project/fishros/chapt8_ws/build/fishbot_description/build/lib/fishbot_description
+[0.541s] running install
+[0.544s] running install_lib
+[0.551s] running install_data
+[0.551s] copying resource/fishbot_description -> /home/moon/project/fishros/chapt8_ws/install/fishbot_description/share/ament_index/resource_index/packages
+[0.551s] copying package.xml -> /home/moon/project/fishros/chapt8_ws/install/fishbot_description/share/fishbot_description
+[0.551s] copying launch/gazebo.launch.py -> /home/moon/project/fishros/chapt8_ws/install/fishbot_description/share/fishbot_description/launch
+[0.552s] copying launch/display_rviz2.launch.py -> /home/moon/project/fishros/chapt8_ws/install/fishbot_description/share/fishbot_description/launch
+[0.552s] copying urdf/fishbot_base.urdf -> /home/moon/project/fishros/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf
+[0.552s] running install_egg_info
+[0.559s] removing '/home/moon/project/fishros/chapt8_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info' (and everything under it)
+[0.559s] Copying ../../build/fishbot_description/fishbot_description.egg-info to /home/moon/project/fishros/chapt8_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info
+[0.560s] running install_scripts
+[0.627s] Installing rotate_wheel script to /home/moon/project/fishros/chapt8_ws/install/fishbot_description/lib/fishbot_description
+[0.627s] writing list of installed files to '/home/moon/project/fishros/chapt8_ws/build/fishbot_description/install.log'
+[0.643s] Invoked command in '/home/moon/project/fishros/chapt8_ws/src/fishbot_description' returned '0': PYTHONPATH=/home/moon/project/fishros/chapt8_ws/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moon/project/fishros/chapt8_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fishbot_description build --build-base /home/moon/project/fishros/chapt8_ws/build/fishbot_description/build install --record /home/moon/project/fishros/chapt8_ws/build/fishbot_description/install.log --single-version-externally-managed install_data
