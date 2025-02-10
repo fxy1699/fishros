@@ -8,7 +8,7 @@ from launch_ros.substitutions import FindPackageShare
 def generate_launch_description():
     robot_name_in_model = 'fishbot'
     package_name = 'fishbot_description'
-    urdf_name = "fishbot_gazebo.urdf"
+    urdf_name = "fishbot_base.urdf"
 
     ld = LaunchDescription()
     pkg_share = FindPackageShare(package=package_name).find(package_name) 

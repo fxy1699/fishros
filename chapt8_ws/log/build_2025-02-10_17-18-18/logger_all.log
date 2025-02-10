@@ -1,0 +1,347 @@
+[0.063s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--packages-up-to', 'cartographer_ros'][0m
+[0.063s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=['cartographer_ros'], packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x704524c28c40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x704524c28790>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x704524c28790>>, mixin_verb=('build',))[0m
+[0.084s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.084s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.084s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.084s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.084s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.084s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.084s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/moon/project/fishros/chapt8_ws'
+[0.084s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.084s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.084s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.084s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.084s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.084s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.084s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.084s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.084s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.091s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.091s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.091s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.091s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.091s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.091s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.091s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.092s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.092s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.092s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer) by extension 'ignore'
+[0.092s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer) by extension 'ignore_ament_install'
+[0.092s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer) by extensions ['colcon_pkg']
+[0.092s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer) by extension 'colcon_pkg'
+[0.092s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer) by extensions ['colcon_meta']
+[0.092s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer) by extension 'colcon_meta'
+[0.092s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer) by extensions ['ros']
+[0.092s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer) by extension 'ros'
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'cartographer' with type 'ros.cmake' and name 'cartographer'[0m
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros) by extension 'ignore'
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros) by extension 'ignore_ament_install'
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros) by extensions ['colcon_pkg']
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros) by extension 'colcon_pkg'
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros) by extensions ['colcon_meta']
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros) by extension 'colcon_meta'
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros) by extensions ['ros']
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros) by extension 'ros'
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros) by extensions ['cmake', 'python']
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros) by extension 'cmake'
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros) by extension 'python'
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros) by extensions ['python_setup_py']
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros) by extension 'python_setup_py'
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_ros) by extension 'ignore'
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_ros) by extension 'ignore_ament_install'
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_ros) by extensions ['colcon_pkg']
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_ros) by extension 'colcon_pkg'
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_ros) by extensions ['colcon_meta']
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_ros) by extension 'colcon_meta'
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_ros) by extensions ['ros']
+[0.094s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_ros) by extension 'ros'
+[0.095s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'cartographer_ros/cartographer_ros' with type 'ros.ament_cmake' and name 'cartographer_ros'[0m
+[0.095s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.095s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_ros_msgs) by extension 'ignore'
+[0.095s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_ros_msgs) by extension 'ignore_ament_install'
+[0.096s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_ros_msgs) by extensions ['colcon_pkg']
+[0.096s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_ros_msgs) by extension 'colcon_pkg'
+[0.096s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_ros_msgs) by extensions ['colcon_meta']
+[0.096s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_ros_msgs) by extension 'colcon_meta'
+[0.096s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_ros_msgs) by extensions ['ros']
+[0.096s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_ros_msgs) by extension 'ros'
+[0.096s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'cartographer_ros/cartographer_ros_msgs' with type 'ros.ament_cmake' and name 'cartographer_ros_msgs'[0m
+[0.096s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_rviz) by extension 'ignore'
+[0.096s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_rviz) by extension 'ignore_ament_install'
+[0.096s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_rviz) by extensions ['colcon_pkg']
+[0.096s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_rviz) by extension 'colcon_pkg'
+[0.096s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_rviz) by extensions ['colcon_meta']
+[0.096s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_rviz) by extension 'colcon_meta'
+[0.096s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_rviz) by extensions ['ros']
+[0.096s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/cartographer_rviz) by extension 'ros'
+[0.097s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'cartographer_ros/cartographer_rviz' with type 'ros.ament_cmake' and name 'cartographer_rviz'[0m
+[0.097s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/docs) by extension 'ignore'
+[0.097s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/docs) ignored
+[0.097s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/scripts) by extension 'ignore'
+[0.097s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/scripts) by extension 'ignore_ament_install'
+[0.097s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/scripts) by extensions ['colcon_pkg']
+[0.097s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/scripts) by extension 'colcon_pkg'
+[0.097s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/scripts) by extensions ['colcon_meta']
+[0.097s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/scripts) by extension 'colcon_meta'
+[0.097s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/scripts) by extensions ['ros']
+[0.097s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/scripts) by extension 'ros'
+[0.097s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/scripts) by extensions ['cmake', 'python']
+[0.097s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/scripts) by extension 'cmake'
+[0.097s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/scripts) by extension 'python'
+[0.097s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/scripts) by extensions ['python_setup_py']
+[0.097s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cartographer_ros/scripts) by extension 'python_setup_py'
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extension 'ignore'
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extension 'ignore_ament_install'
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extensions ['colcon_pkg']
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extension 'colcon_pkg'
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extensions ['colcon_meta']
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extension 'colcon_meta'
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extensions ['ros']
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extension 'ros'
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extensions ['cmake', 'python']
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extension 'cmake'
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extension 'python'
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extensions ['python_setup_py']
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(map) by extension 'python_setup_py'
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.098s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.099s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.099s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot_description) by extension 'ignore'
+[0.099s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot_description) by extension 'ignore_ament_install'
+[0.099s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot_description) by extensions ['colcon_pkg']
+[0.099s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot_description) by extension 'colcon_pkg'
+[0.099s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot_description) by extensions ['colcon_meta']
+[0.099s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot_description) by extension 'colcon_meta'
+[0.099s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot_description) by extensions ['ros']
+[0.099s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot_description) by extension 'ros'
+[0.099s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/fishbot_description' with type 'ros.ament_python' and name 'fishbot_description'[0m
+[0.099s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.099s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.099s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.099s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.099s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.108s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping package 'cartographer_rviz' in 'cartographer_ros/cartographer_rviz'
+[0.108s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping package 'fishbot_description' in 'src/fishbot_description'
+[0.108s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.108s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.110s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 320 installed packages in /opt/ros/humble[0m
+[0.111s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.129s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer' build argument 'cmake_args' from command line to 'None'
+[0.129s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer' build argument 'cmake_target' from command line to 'None'
+[0.129s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.129s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/moon/project/fishros/chapt8_ws/build/cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/moon/project/fishros/chapt8_ws/install/cartographer', 'merge_install': False, 'path': '/home/moon/project/fishros/chapt8_ws/cartographer', 'symlink_install': False, 'test_result_base': None}[0m
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'cartographer_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/moon/project/fishros/chapt8_ws/build/cartographer_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs', 'merge_install': False, 'path': '/home/moon/project/fishros/chapt8_ws/cartographer_ros/cartographer_ros_msgs', 'symlink_install': False, 'test_result_base': None}[0m
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer_ros' build argument 'cmake_args' from command line to 'None'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer_ros' build argument 'cmake_target' from command line to 'None'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cartographer_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.130s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'cartographer_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/moon/project/fishros/chapt8_ws/build/cartographer_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros', 'merge_install': False, 'path': '/home/moon/project/fishros/chapt8_ws/cartographer_ros/cartographer_ros', 'symlink_install': False, 'test_result_base': None}[0m
+[0.130s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.131s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.132s] [34mcolcon.colcon_ros.task.cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/moon/project/fishros/chapt8_ws/cartographer' with build type 'cmake'
+[0.132s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/moon/project/fishros/chapt8_ws/cartographer'
+[0.134s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.134s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.134s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.142s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/moon/project/fishros/chapt8_ws/cartographer_ros/cartographer_ros_msgs' with build type 'ament_cmake'
+[0.142s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/moon/project/fishros/chapt8_ws/cartographer_ros/cartographer_ros_msgs'
+[0.142s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.142s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.147s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moon/project/fishros/chapt8_ws/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/moon/project/fishros/chapt8_ws/cartographer -DCMAKE_INSTALL_PREFIX=/home/moon/project/fishros/chapt8_ws/install/cartographer[0m
+[0.149s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moon/project/fishros/chapt8_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/moon/project/fishros/chapt8_ws/cartographer_ros/cartographer_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs[0m
+[1.164s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moon/project/fishros/chapt8_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/moon/project/fishros/chapt8_ws/cartographer -DCMAKE_INSTALL_PREFIX=/home/moon/project/fishros/chapt8_ws/install/cartographer[0m
+[1.165s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moon/project/fishros/chapt8_ws/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/moon/project/fishros/chapt8_ws/build/cartographer -- -j16 -l16[0m
+[2.382s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moon/project/fishros/chapt8_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/moon/project/fishros/chapt8_ws/cartographer_ros/cartographer_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs[0m
+[2.384s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moon/project/fishros/chapt8_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/moon/project/fishros/chapt8_ws/build/cartographer_ros_msgs -- -j16 -l16[0m
+[20.094s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moon/project/fishros/chapt8_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/moon/project/fishros/chapt8_ws/build/cartographer_ros_msgs -- -j16 -l16[0m
+[21.707s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moon/project/fishros/chapt8_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/moon/project/fishros/chapt8_ws/build/cartographer_ros_msgs[0m
+[22.001s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cartographer_ros_msgs)
+[22.007s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moon/project/fishros/chapt8_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/moon/project/fishros/chapt8_ws/build/cartographer_ros_msgs[0m
+[22.015s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs' for CMake module files
+[22.015s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs' for CMake config files
+[22.016s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cartographer_ros_msgs', 'cmake_prefix_path')
+[22.016s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.ps1'
+[22.017s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.dsv'
+[22.022s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.sh'
+[22.023s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/lib'
+[22.024s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cartographer_ros_msgs', 'ld_library_path_lib')
+[22.024s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.ps1'
+[22.025s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.dsv'
+[22.025s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.sh'
+[22.030s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/bin'
+[22.030s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/lib/pkgconfig/cartographer_ros_msgs.pc'
+[22.030s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/lib/python3.10/site-packages'
+[22.031s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/bin'
+[22.031s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.ps1'
+[22.032s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.dsv'
+[22.035s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.sh'
+[22.036s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.bash'
+[22.037s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.zsh'
+[22.039s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/colcon-core/packages/cartographer_ros_msgs)
+[23.660s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cartographer_ros_msgs)
+[23.661s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs' for CMake module files
+[23.661s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs' for CMake config files
+[23.662s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cartographer_ros_msgs', 'cmake_prefix_path')
+[23.662s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.ps1'
+[23.666s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.dsv'
+[23.667s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.sh'
+[23.667s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/lib'
+[23.668s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cartographer_ros_msgs', 'ld_library_path_lib')
+[23.668s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.ps1'
+[23.672s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.dsv'
+[23.672s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.sh'
+[23.674s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/bin'
+[23.674s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/lib/pkgconfig/cartographer_ros_msgs.pc'
+[23.674s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/lib/python3.10/site-packages'
+[23.675s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/bin'
+[23.675s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.ps1'
+[23.680s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.dsv'
+[23.681s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.sh'
+[23.682s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.bash'
+[23.682s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.zsh'
+[23.687s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/colcon-core/packages/cartographer_ros_msgs)
+[87.639s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moon/project/fishros/chapt8_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/moon/project/fishros/chapt8_ws/build/cartographer -- -j16 -l16[0m
+[88.354s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moon/project/fishros/chapt8_ws/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/moon/project/fishros/chapt8_ws/build/cartographer[0m
+[88.389s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moon/project/fishros/chapt8_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/moon/project/fishros/chapt8_ws/build/cartographer[0m
+[89.121s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cartographer', 'pkg_config_path')
+[89.121s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moon/project/fishros/chapt8_ws/install/cartographer/share/cartographer/hook/pkg_config_path.ps1'
+[89.122s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moon/project/fishros/chapt8_ws/install/cartographer/share/cartographer/hook/pkg_config_path.dsv'
+[89.122s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moon/project/fishros/chapt8_ws/install/cartographer/share/cartographer/hook/pkg_config_path.sh'
+[89.123s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cartographer', 'pkg_config_path_multiarch')
+[89.124s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moon/project/fishros/chapt8_ws/install/cartographer/share/cartographer/hook/pkg_config_path_multiarch.ps1'
+[89.124s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moon/project/fishros/chapt8_ws/install/cartographer/share/cartographer/hook/pkg_config_path_multiarch.dsv'
+[89.124s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moon/project/fishros/chapt8_ws/install/cartographer/share/cartographer/hook/pkg_config_path_multiarch.sh'
+[89.124s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cartographer)
+[89.124s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer' for CMake module files
+[89.124s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer' for CMake config files
+[89.125s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cartographer', 'cmake_prefix_path')
+[89.125s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moon/project/fishros/chapt8_ws/install/cartographer/share/cartographer/hook/cmake_prefix_path.ps1'
+[89.125s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moon/project/fishros/chapt8_ws/install/cartographer/share/cartographer/hook/cmake_prefix_path.dsv'
+[89.125s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moon/project/fishros/chapt8_ws/install/cartographer/share/cartographer/hook/cmake_prefix_path.sh'
+[89.125s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer/lib'
+[89.125s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer/bin'
+[89.125s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cartographer', 'path')
+[89.125s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moon/project/fishros/chapt8_ws/install/cartographer/share/cartographer/hook/path.ps1'
+[89.126s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moon/project/fishros/chapt8_ws/install/cartographer/share/cartographer/hook/path.dsv'
+[89.126s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moon/project/fishros/chapt8_ws/install/cartographer/share/cartographer/hook/path.sh'
+[89.126s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/pkgconfig/cartographer.pc'
+[89.126s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/python3.10/site-packages'
+[89.126s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer/bin'
+[89.126s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cartographer', 'pythonscriptspath')
+[89.126s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moon/project/fishros/chapt8_ws/install/cartographer/share/cartographer/hook/pythonscriptspath.ps1'
+[89.126s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moon/project/fishros/chapt8_ws/install/cartographer/share/cartographer/hook/pythonscriptspath.dsv'
+[89.127s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moon/project/fishros/chapt8_ws/install/cartographer/share/cartographer/hook/pythonscriptspath.sh'
+[89.127s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moon/project/fishros/chapt8_ws/install/cartographer/share/cartographer/package.ps1'
+[89.127s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/moon/project/fishros/chapt8_ws/install/cartographer/share/cartographer/package.dsv'
+[89.127s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moon/project/fishros/chapt8_ws/install/cartographer/share/cartographer/package.sh'
+[89.128s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moon/project/fishros/chapt8_ws/install/cartographer/share/cartographer/package.bash'
+[89.128s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moon/project/fishros/chapt8_ws/install/cartographer/share/cartographer/package.zsh'
+[89.128s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/moon/project/fishros/chapt8_ws/install/cartographer/share/colcon-core/packages/cartographer)
+[89.128s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/moon/project/fishros/chapt8_ws/cartographer_ros/cartographer_ros' with build type 'ament_cmake'
+[89.128s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/moon/project/fishros/chapt8_ws/cartographer_ros/cartographer_ros'
+[89.128s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[89.128s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[89.146s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moon/project/fishros/chapt8_ws/build/cartographer_ros': AMENT_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:/home/moon/project/fishros/chapt8_ws/install/cartographer:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/moon/project/fishros/chapt8_ws/cartographer_ros/cartographer_ros -DCMAKE_INSTALL_PREFIX=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros[0m
+[90.553s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moon/project/fishros/chapt8_ws/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:/home/moon/project/fishros/chapt8_ws/install/cartographer:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/moon/project/fishros/chapt8_ws/cartographer_ros/cartographer_ros -DCMAKE_INSTALL_PREFIX=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros[0m
+[90.554s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moon/project/fishros/chapt8_ws/build/cartographer_ros': AMENT_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:/home/moon/project/fishros/chapt8_ws/install/cartographer:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/moon/project/fishros/chapt8_ws/build/cartographer_ros -- -j16 -l16[0m
+[129.794s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moon/project/fishros/chapt8_ws/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:/home/moon/project/fishros/chapt8_ws/install/cartographer:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/moon/project/fishros/chapt8_ws/build/cartographer_ros -- -j16 -l16[0m
+[129.895s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moon/project/fishros/chapt8_ws/build/cartographer_ros': AMENT_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:/home/moon/project/fishros/chapt8_ws/install/cartographer:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/moon/project/fishros/chapt8_ws/build/cartographer_ros[0m
+[130.015s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cartographer_ros)
+[130.015s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros' for CMake module files
+[130.016s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moon/project/fishros/chapt8_ws/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:/home/moon/project/fishros/chapt8_ws/install/cartographer:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/moon/project/fishros/chapt8_ws/build/cartographer_ros[0m
+[130.016s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros' for CMake config files
+[130.016s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cartographer_ros', 'cmake_prefix_path')
+[130.017s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.ps1'
+[130.017s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.dsv'
+[130.017s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.sh'
+[130.017s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/lib'
+[130.017s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/bin'
+[130.017s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/lib/pkgconfig/cartographer_ros.pc'
+[130.018s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/lib/python3.10/site-packages'
+[130.018s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/bin'
+[130.018s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/package.ps1'
+[130.018s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/package.dsv'
+[130.018s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/package.sh'
+[130.018s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/package.bash'
+[130.019s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/package.zsh'
+[130.019s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/colcon-core/packages/cartographer_ros)
+[130.112s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cartographer_ros)
+[130.113s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros' for CMake module files
+[130.113s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros' for CMake config files
+[130.113s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cartographer_ros', 'cmake_prefix_path')
+[130.113s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.ps1'
+[130.114s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.dsv'
+[130.114s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.sh'
+[130.114s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/lib'
+[130.114s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/bin'
+[130.114s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/lib/pkgconfig/cartographer_ros.pc'
+[130.114s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/lib/python3.10/site-packages'
+[130.114s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/bin'
+[130.115s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/package.ps1'
+[130.115s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/package.dsv'
+[130.115s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/package.sh'
+[130.116s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/package.bash'
+[130.116s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/package.zsh'
+[130.117s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/colcon-core/packages/cartographer_ros)
+[130.117s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[130.117s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[130.117s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[130.117s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[130.128s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[130.129s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[130.129s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[130.135s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[130.135s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/moon/project/fishros/chapt8_ws/install/local_setup.ps1'
+[130.136s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/moon/project/fishros/chapt8_ws/install/_local_setup_util_ps1.py'
+[130.139s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/moon/project/fishros/chapt8_ws/install/setup.ps1'
+[130.139s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/moon/project/fishros/chapt8_ws/install/local_setup.sh'
+[130.140s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/moon/project/fishros/chapt8_ws/install/_local_setup_util_sh.py'
+[130.140s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/moon/project/fishros/chapt8_ws/install/setup.sh'
+[130.140s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/moon/project/fishros/chapt8_ws/install/local_setup.bash'
+[130.141s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/moon/project/fishros/chapt8_ws/install/setup.bash'
+[130.141s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/moon/project/fishros/chapt8_ws/install/local_setup.zsh'
+[130.141s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/moon/project/fishros/chapt8_ws/install/setup.zsh'

@@ -1,0 +1,208 @@
+[0.017s] Invoking command in '/home/moon/project/fishros/chapt8_ws/build/cartographer_ros': AMENT_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:/home/moon/project/fishros/chapt8_ws/install/cartographer:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/moon/project/fishros/chapt8_ws/cartographer_ros/cartographer_ros -DCMAKE_INSTALL_PREFIX=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.099s] -- The CXX compiler identification is GNU 11.4.0
+[0.104s] -- Detecting C compiler ABI info
+[0.155s] -- Detecting C compiler ABI info - done
+[0.159s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.159s] -- Detecting C compile features
+[0.159s] -- Detecting C compile features - done
+[0.161s] -- Detecting CXX compiler ABI info
+[0.222s] -- Detecting CXX compiler ABI info - done
+[0.226s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.226s] -- Detecting CXX compile features
+[0.226s] -- Detecting CXX compile features - done
+[0.228s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.442s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.500s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.530s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.533s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.538s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.546s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.555s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.565s] -- Looking for pthread.h
+[0.623s] -- Looking for pthread.h - found
+[0.623s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.682s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.682s] -- Found Threads: TRUE  
+[0.688s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[0.691s] -- Found required Ceres dependency: glog
+[0.691s] -- Found required Ceres dependency: gflags
+[0.691s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[0.696s] -- Found cartographer_ros_msgs: 2.0.9003 (/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake)
+[0.734s] -- Checking for module 'eigen3'
+[0.747s] --   Found eigen3, version 3.4.0
+[0.780s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.780s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.794s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.795s] -- looking for PCL_COMMON
+[0.796s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[0.796s] -- Found PCL: pcl_common;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization  
+[0.799s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.816s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.858s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.861s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.955s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.978s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.011s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.083s] -- Found rosbag2_cpp: 0.15.12 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[1.118s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[1.121s] -- Found tf2_eigen: 0.25.8 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.187s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.194s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.300s] -- Configuring done
+[1.412s] -- Generating done
+[1.414s] -- Build files have been written to: /home/moon/project/fishros/chapt8_ws/build/cartographer_ros
+[1.424s] Invoked command in '/home/moon/project/fishros/chapt8_ws/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:/home/moon/project/fishros/chapt8_ws/install/cartographer:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/moon/project/fishros/chapt8_ws/cartographer_ros/cartographer_ros -DCMAKE_INSTALL_PREFIX=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros
+[1.425s] Invoking command in '/home/moon/project/fishros/chapt8_ws/build/cartographer_ros': AMENT_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:/home/moon/project/fishros/chapt8_ws/install/cartographer:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/moon/project/fishros/chapt8_ws/build/cartographer_ros -- -j16 -l16
+[1.468s] [ 17%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/offline_node.cpp.o[0m
+[1.468s] [ 17%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node.cpp.o[0m
+[1.468s] [ 17%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node_constants.cpp.o[0m
+[1.468s] [ 17%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/map_builder_bridge.cpp.o[0m
+[1.468s] [ 22%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/playable_bag.cpp.o[0m
+[1.468s] [ 22%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/msg_conversion.cpp.o[0m
+[1.469s] [ 25%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_log_sink.cpp.o[0m
+[1.469s] [ 28%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_map.cpp.o[0m
+[1.469s] [ 17%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node_options.cpp.o[0m
+[1.469s] [ 37%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/submap.cpp.o[0m
+[1.469s] [ 37%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/sensor_bridge.cpp.o[0m
+[1.469s] [ 17%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/assets_writer.cpp.o[0m
+[1.469s] [ 37%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_map_writing_points_processor.cpp.o[0m
+[1.469s] [ 45%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/time_conversion.cpp.o[0m
+[1.469s] [ 45%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/tf_bridge.cpp.o[0m
+[1.469s] [ 45%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/trajectory_options.cpp.o[0m
+[1.959s] [ 48%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/urdf_reader.cpp.o[0m
+[5.271s] [ 51%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/family_factory.cpp.o[0m
+[5.712s] [ 54%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/internal/family.cpp.o[0m
+[5.736s] [ 57%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/internal/histogram.cpp.o[0m
+[28.898s] [ 60%] [32m[1mLinking CXX static library libcartographer_ros.a[0m
+[29.632s] [ 60%] Built target cartographer_ros
+[29.648s] [ 80%] [32mBuilding CXX object CMakeFiles/cartographer_rosbag_validate.dir/src/rosbag_validate_main.cpp.o[0m
+[29.648s] [ 80%] [32mBuilding CXX object CMakeFiles/cartographer_assets_writer.dir/src/assets_writer_main.cpp.o[0m
+[29.648s] [ 80%] [32mBuilding CXX object CMakeFiles/cartographer_pbstream_to_ros_map.dir/src/pbstream_to_ros_map_main.cpp.o[0m
+[29.648s] [ 80%] [32mBuilding CXX object CMakeFiles/cartographer_node.dir/src/node_main.cpp.o[0m
+[29.648s] [ 80%] [32mBuilding CXX object CMakeFiles/cartographer_offline_node.dir/src/offline_node_main.cpp.o[0m
+[29.648s] [ 80%] [32mBuilding CXX object CMakeFiles/cartographer_pbstream_map_publisher.dir/src/pbstream_map_publisher_main.cpp.o[0m
+[29.648s] [ 80%] [32mBuilding CXX object CMakeFiles/cartographer_occupancy_grid_node.dir/src/occupancy_grid_node_main.cpp.o[0m
+[34.279s] [ 82%] [32m[1mLinking CXX executable cartographer_offline_node[0m
+[34.625s] [ 85%] [32m[1mLinking CXX executable cartographer_pbstream_to_ros_map[0m
+[35.019s] [ 85%] Built target cartographer_pbstream_to_ros_map
+[35.494s] [ 88%] [32m[1mLinking CXX executable cartographer_assets_writer[0m
+[36.132s] [ 91%] [32m[1mLinking CXX executable cartographer_node[0m
+[36.334s] [ 91%] Built target cartographer_assets_writer
+[37.020s] [ 94%] [32m[1mLinking CXX executable cartographer_pbstream_map_publisher[0m
+[37.687s] [ 94%] Built target cartographer_pbstream_map_publisher
+[37.830s] [ 97%] [32m[1mLinking CXX executable cartographer_rosbag_validate[0m
+[38.236s] [ 97%] Built target cartographer_rosbag_validate
+[38.249s] [ 97%] Built target cartographer_offline_node
+[39.283s] [ 97%] Built target cartographer_node
+[40.088s] [100%] [32m[1mLinking CXX executable cartographer_occupancy_grid_node[0m
+[40.655s] [100%] Built target cartographer_occupancy_grid_node
+[40.665s] Invoked command in '/home/moon/project/fishros/chapt8_ws/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:/home/moon/project/fishros/chapt8_ws/install/cartographer:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/moon/project/fishros/chapt8_ws/build/cartographer_ros -- -j16 -l16
+[40.766s] Invoking command in '/home/moon/project/fishros/chapt8_ws/build/cartographer_ros': AMENT_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:/home/moon/project/fishros/chapt8_ws/install/cartographer:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/moon/project/fishros/chapt8_ws/build/cartographer_ros
+[40.772s] -- Install configuration: ""
+[40.772s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/lib/libcartographer_ros.a
+[40.829s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_node
+[40.846s] -- Set runtime path of "/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_node" to ""
+[40.846s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_occupancy_grid_node
+[40.851s] -- Set runtime path of "/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_occupancy_grid_node" to ""
+[40.851s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_offline_node
+[40.869s] -- Set runtime path of "/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_offline_node" to ""
+[40.870s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_assets_writer
+[40.872s] -- Set runtime path of "/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_assets_writer" to ""
+[40.872s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_map_publisher
+[40.875s] -- Set runtime path of "/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_map_publisher" to ""
+[40.875s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_to_ros_map
+[40.876s] -- Set runtime path of "/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_to_ros_map" to ""
+[40.876s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_rosbag_validate
+[40.878s] -- Set runtime path of "/home/moon/project/fishros/chapt8_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_rosbag_validate" to ""
+[40.878s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include/
+[40.878s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros
+[40.878s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/time_conversion.h
+[40.878s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/ros_map_writing_points_processor.h
+[40.878s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/sensor_bridge.h
+[40.878s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/assets_writer.h
+[40.878s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/msg_conversion.h
+[40.878s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/submap.h
+[40.878s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/node.h
+[40.878s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/tf_bridge.h
+[40.879s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/node_options.h
+[40.879s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/offline_node.h
+[40.879s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/playable_bag.h
+[40.879s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/node_constants.h
+[40.879s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/metrics
+[40.879s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/metrics/family_factory.h
+[40.879s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal
+[40.879s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/family.h
+[40.879s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/histogram.h
+[40.879s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/counter.h
+[40.879s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/gauge.h
+[40.879s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/ros_log_sink.h
+[40.879s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/ros_map.h
+[40.879s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/map_builder_bridge.h
+[40.879s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/urdf_reader.h
+[40.879s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/include//cartographer_ros/trajectory_options.h
+[40.879s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//configuration_files
+[40.879s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/pr2.lua
+[40.879s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d.lua
+[40.880s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_3d.rviz
+[40.880s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_server.lua
+[40.880s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization.lua
+[40.880s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/mir-100-mapping.lua
+[40.880s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d.lua
+[40.880s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/taurob_tracker.lua
+[40.880s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/visualize_pbstream.lua
+[40.880s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/revo_lds.lua
+[40.880s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d_ci.lua
+[40.880s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d.lua
+[40.880s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_3d.lua
+[40.880s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/transform.lua
+[40.880s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d_localization.lua
+[40.880s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization_evaluation.lua
+[40.881s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_2d.rviz
+[40.881s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_ros_map.lua
+[40.881s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//urdf
+[40.881s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//urdf/backpack_2d.urdf
+[40.881s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//urdf/backpack_3d.urdf
+[40.881s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//urdf/mir-100.urdf
+[40.881s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//launch
+[40.881s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//launch/backpack_3d.launch.py
+[40.881s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//launch/backpack_2d.launch.py
+[40.881s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_taurob_tracker.launch.py
+[40.881s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_3d.launch.py
+[40.881s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_3d.launch.py
+[40.881s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_revo_lds.launch.py
+[40.881s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_2d.launch.py
+[40.882s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d_localization.launch
+[40.882s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_mir_100_rviz.launch.py
+[40.882s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_pr2.launch
+[40.882s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_2d.launch.py
+[40.882s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d.launch.py
+[40.882s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//launch/taurob_tracker.launch.py
+[40.882s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d.launch
+[40.882s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d_localization.launch.py
+[40.882s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d_localization.launch.py
+[40.882s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d.launch.py
+[40.882s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_node.launch.py
+[40.882s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_ros_map.launch.py
+[40.882s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros//launch/visualize_pbstream.launch.py
+[40.883s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/environment/library_path.sh
+[40.883s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/environment/library_path.dsv
+[40.883s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/ament_index/resource_index/package_run_dependencies/cartographer_ros
+[40.883s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/ament_index/resource_index/parent_prefix_path/cartographer_ros
+[40.883s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.sh
+[40.883s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.dsv
+[40.883s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/environment/path.sh
+[40.883s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/environment/path.dsv
+[40.883s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/local_setup.bash
+[40.883s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/local_setup.sh
+[40.884s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/local_setup.zsh
+[40.884s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/local_setup.dsv
+[40.884s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/package.dsv
+[40.884s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/ament_index/resource_index/packages/cartographer_ros
+[40.884s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.884s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[40.884s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.884s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig.cmake
+[40.884s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig-version.cmake
+[40.884s] -- Installing: /home/moon/project/fishros/chapt8_ws/install/cartographer_ros/share/cartographer_ros/package.xml
+[40.887s] Invoked command in '/home/moon/project/fishros/chapt8_ws/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs:/home/moon/project/fishros/chapt8_ws/install/cartographer:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/moon/project/fishros/chapt8_ws/install/cartographer/lib/pkgconfig PYTHONPATH=/home/moon/project/fishros/chapt8_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/moon/project/fishros/chapt8_ws/build/cartographer_ros
